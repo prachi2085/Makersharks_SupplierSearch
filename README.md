@@ -25,8 +25,6 @@ POST /suppliers/search: Search for suppliers with specific parameters.
 
 6. cURL Commands:
    To get a list of suppliers:
-   curl -X GET http://localhost:8080/suppliers
+   curl -X GET [http://localhost:8080/suppliers](http://localhost:8080/h2-console/login.jsp?jsessionid=b7600b979a1aa4300c421596d1375df9)
    
-  To search for suppliers with specific criteria:
-  curl -X POST -H "Content-Type: application/json" -d '{"criteria": "example"}' http://localhost:8080/suppliers/search
-
+  
